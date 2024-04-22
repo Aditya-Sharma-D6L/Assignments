@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter1 snapshot with different count 1`] = `
+<div>
+  <p>
+    Count: 
+    0
+  </p>
+  <button
+    onClick={[Function]}
+    test-id="button"
+  >
+    Increment
+  </button>
+</div>
+`;
+
+exports[`Counter1 snapshot with different count 2`] = `
+<div>
+  <p>
+    Count: 
+    1
+  </p>
+  <button
+    onClick={[Function]}
+    test-id="button"
+  >
+    Increment
+  </button>
+</div>
+`;

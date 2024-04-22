@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message snapshot with 2 parameters 1`] = `
+<div>
+  Hello, Aditya!
+  Welcome
+</div>
+`;
