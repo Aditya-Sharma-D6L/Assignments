@@ -6,17 +6,15 @@ import WelcomePage from "./components/WelcomePage";
 
 function App() {
   return (
-    <>
+    <Router>
       <AuthProvider>
         <LoginForm />
       </AuthProvider>
 
-      <Router>
-        <Routes>
-          <Route path="/welcome" element={<WelcomePage />} />
-        </Routes>
-      </Router>
-    </>
+      <Routes>
+        <Route path="/welcome" element={<WelcomePage />} />
+      </Routes>
+    </Router>
   );
 }
 
